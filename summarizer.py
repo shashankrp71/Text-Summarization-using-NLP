@@ -12,6 +12,7 @@ from statistics import mean
 from heapq import nlargest
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+nltk.download('stopwords')
 
 stop_words = set(stopwords.words('english'))
 punctuation = punctuation + '\n' + '—' + '“' + ',' + '”' + '‘' + '-' + '’'
