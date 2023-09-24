@@ -13,6 +13,7 @@ from heapq import nlargest
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 nltk.download('stopwords')
+nltk.download('punkt')
 
 stop_words = set(stopwords.words('english'))
 punctuation = punctuation + '\n' + '—' + '“' + ',' + '”' + '‘' + '-' + '’'
